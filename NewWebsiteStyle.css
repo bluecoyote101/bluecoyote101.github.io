@@ -1,0 +1,27 @@
+
+#bio{
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  color: lightblue;
+  background-color:navy;
+  padding: 5px;
+  font-family:Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
+}
+
+nav {
+  text-align: center;
+  color:dodgerblue;
+}
+
+.Heading2_centered {
+  text-align: center;
+  color:blue;
+}
+
+.Heading2 {
+  color: green;
+}
