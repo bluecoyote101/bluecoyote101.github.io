@@ -1,4 +1,6 @@
-
+body {
+  background-color: black;
+}
 #bio{
   text-align: center;
 }
@@ -6,15 +8,15 @@
 header {
   text-align: center;
   font-size: 30px;
-  color: lightblue;
-  background-color:navy;
+  color: greenyellow;
+  background-color: black;
   padding: 5px;
   font-family:Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
 }
 
 nav {
   text-align: center;
-  color:dodgerblue;
+  color:greenyellow;
 }
 
 .Heading2_centered {
