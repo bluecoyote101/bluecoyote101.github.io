@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: Courier New, Courier, 'monospace';
 }
 #bio{
   text-align: center;
@@ -8,7 +9,7 @@ body {
 header {
   text-align: center;
   font-size: 30px;
-  color: greenyellow;
+  color: rgb(0, 255, 0);
   background-color: black;
   padding: 5px;
   font-family:Segoe UI, Tahoma, Geneva, 'Verdana', sans-serif;
@@ -16,14 +17,14 @@ header {
 
 nav {
   text-align: center;
-  color:greenyellow;
+  color: lime;
 }
 
 .Heading2_centered {
   text-align: center;
-  color:blue;
+  color:lime;
 }
 
 .Heading2 {
-  color: green;
+  color: lime;
 }
