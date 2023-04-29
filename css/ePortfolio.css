@@ -19,7 +19,12 @@ body {
 }
 
 header {
-  font-family: 'Lucida Sans', Arial, sans-serif;
+  font-family:Georgia;
+  color:black; 
+
+  -webkit-text-stroke: 1.3px rgb(0, 0, 0);
+  -webkit-text-fill-color:rgb(255, 255, 255);
+
   text-align: center;
   font-size: 30px;
   padding: 5px;
@@ -33,9 +38,25 @@ nav {
 
 .Heading2_centered {
   text-align: center;
-  color: navy;
+  font-size: 30px;
+  -webkit-text-stroke: 0.2px rgb(59, 190, 255);
+  -webkit-text-fill-color:rgb(0, 0, 0);
 }
 
 .Heading2 {
-  color: navy;
+  font-size: 30px;
+  -webkit-text-stroke: 0.2px rgb(59, 190, 255);
+  -webkit-text-fill-color:rgb(0, 0, 0);
+}
+
+.Heading3 {
+  font-size: 20px;
+}
+
+.textbox {
+  background-color: rgb(251, 255, 183, 0.9);
+  border-style: double;
+  border-spacing: 0cm;
+  max-width: 800px; /* "compress" text so it doesn't span the whole page" */
+	padding: 13px; /* add some padding to the container */
 }
