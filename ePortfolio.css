@@ -1,7 +1,11 @@
 body {
-  background-image: url("C:/Users/cdc1/OneDrive/Documents/WEBSITE/pictures/UBC_sunset.HEIC");
+  background-image: url('"C:/Users/cdc1/OneDrive/Documents/WEBSITE/pictures/UBC_sunset.jpg"');
+  background-size: cover;
+	background-repeat: no-repeat;
+
   font-family: Courier New, Courier, 'monospace';
 }
+
 #bio{
   text-align: center;
 }
@@ -9,8 +13,6 @@ body {
 header {
   text-align: center;
   font-size: 30px;
-  color: rgb(255, 255, 255);
-  background-color: black;
   padding: 5px;
 }
 
