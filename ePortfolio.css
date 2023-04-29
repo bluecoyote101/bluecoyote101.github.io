@@ -1,16 +1,24 @@
 body {
-  background-image: url('"C:/Users/cdc1/OneDrive/Documents/WEBSITE/pictures/UBC_sunset.jpg"');
-  background-size: cover;
-	background-repeat: no-repeat;
-
-  font-family: Courier New, Courier, 'monospace';
+  background-image: url('C:/Users/cdc1/OneDrive/Documents/WEBSITE/pictures/UBC_sunset.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #bio{
+  background-color: rgb(251, 255, 183, 0.9);
+
   text-align: center;
+  border-style: double;
+  border-spacing: 0cm;
+  max-width: 800px; /* "compress" text so it doesn't span the whole page" */
+  margin: 0 auto; /* center the container on the page */
+	padding: 13px; /* add some padding to the container */
+
 }
 
 header {
+  font-family: 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   font-size: 30px;
   padding: 5px;
@@ -18,14 +26,15 @@ header {
 
 nav {
   text-align: center;
-  color: lime;
+  color: navy
+  ;
 }
 
 .Heading2_centered {
   text-align: center;
-  color:lime;
+  color: navy;
 }
 
 .Heading2 {
-  color: lime;
+  color: navy;
 }
