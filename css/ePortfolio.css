@@ -1,20 +1,26 @@
 body {
-  background-image: url("../pictures/UBC_sunset.jpg");
-  background-repeat: no-repeat;
-
-  background-attachment: fixed;
-  background-size: 100% 100%;
+ font-family: sans-serif;
 }
 
-#bio{
-  background-color: rgb(251, 255, 183, 0.9);
+.background {
 
+  background-image: url("../pictures/UBC_sunset.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+#bio{
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: cursive;
   text-align: center;
   border-style: double;
   border-spacing: 0cm;
   max-width: 800px; /* "compress" text so it doesn't span the whole page" */
   margin: 0 auto; /* center the container on the page */
 	padding: 13px; /* add some padding to the container */
+  border-radius: 10px;
+
 
 }
 
@@ -32,18 +38,19 @@ header {
 
 nav {
   text-align: center;
-  color: navy
-  ;
+  color: navy;
 }
 
 .Heading2_centered {
+  font-family: Georgia;
   text-align: center;
   font-size: 30px;
-  -webkit-text-stroke: 0.2px rgb(59, 190, 255);
-  -webkit-text-fill-color:rgb(0, 0, 0);
+  -webkit-text-stroke: 0.6px rgb(0, 0, 0);
+  -webkit-text-fill-color:rgb(255, 255, 255);
 }
 
 .Heading2 {
+  font-family: cursive;
   font-size: 30px;
   -webkit-text-stroke: 0.2px rgb(59, 190, 255);
   -webkit-text-fill-color:rgb(0, 0, 0);
@@ -53,10 +60,34 @@ nav {
   font-size: 20px;
 }
 
-.textbox {
+.Heading3_centered {
+  font-size: 20px;
+  text-align: center;
+}
+
+.textbox1 {
+  font-family: cursive;
   background-color: rgb(251, 255, 183, 0.9);
   border-style: double;
-  border-spacing: 0cm;
-  max-width: 800px; /* "compress" text so it doesn't span the whole page" */
 	padding: 13px; /* add some padding to the container */
+  width: 700px;
+  float: left;
+  border-radius: 10px;
+}
+
+.textbox2 {
+  font-family: cursive;
+  background-color: rgb(251, 255, 183, 0.9);
+  border-style: double;
+	padding: 13px; /* add some padding to the container */
+  width: 700px;
+  float: right;
+  border-radius: 10px;
+
+}
+
+.two-columns {
+  column-count: 2;
+  column-gap: 10px;
+
 }
