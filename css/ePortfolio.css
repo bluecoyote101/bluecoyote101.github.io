@@ -28,7 +28,6 @@ body {
 header {
   font-family: Ink Free;
 
-  
   -webkit-text-stroke: 0.001px rgba(100, 242, 255, 0.9);
   -webkit-text-fill-color: rgb(0, 44, 64);
   
@@ -43,11 +42,11 @@ nav {
 }
 
 .Heading2_centered {
-  font-family: Georgia;
+  font-family: Ink Free;
   text-align: center;
-  font-size: 30px;
-  -webkit-text-stroke: 0.6px rgb(0, 0, 0);
-  -webkit-text-fill-color:rgb(255, 255, 255);
+  font-size: 50px;
+  -webkit-text-stroke: 0.001px rgba(100, 242, 255, 0.9);
+  -webkit-text-fill-color: rgb(0, 44, 64);
 }
 
 .Heading2 {
