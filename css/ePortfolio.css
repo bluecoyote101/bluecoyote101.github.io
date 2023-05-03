@@ -1,17 +1,18 @@
+
 body {
  font-family: sans-serif;
 }
 
 .background {
 
-  background-image: url("../pictures/UBC_sunset.jpg");
+  background-image: url("../pictures/cool_sunset.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 
 }
 #bio{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(218, 243, 255, 0.9);
   font-family: cursive;
   text-align: center;
   border-style: double;
@@ -25,14 +26,14 @@ body {
 }
 
 header {
-  font-family:Georgia;
-  color:black; 
+  font-family: Ink Free;
 
-  -webkit-text-stroke: 1.3px rgb(0, 0, 0);
-  -webkit-text-fill-color:rgb(255, 255, 255);
-
+  
+  -webkit-text-stroke: 0.001px rgba(100, 242, 255, 0.9);
+  -webkit-text-fill-color: rgb(0, 44, 64);
+  
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   padding: 5px;
 }
 
@@ -65,29 +66,28 @@ nav {
   text-align: center;
 }
 
-.textbox1 {
+.textbox {
   font-family: cursive;
   background-color: rgb(251, 255, 183, 0.9);
   border-style: double;
 	padding: 13px; /* add some padding to the container */
   width: 700px;
-  float: left;
   border-radius: 10px;
+  text-align: center;
 }
 
-.textbox2 {
+.column-container {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.column {
   font-family: cursive;
   background-color: rgb(251, 255, 183, 0.9);
   border-style: double;
-	padding: 13px; /* add some padding to the container */
-  width: 700px;
-  float: right;
+  padding: 13px; /* add some padding to the container */
   border-radius: 10px;
+  text-align: center;
 
-}
-
-.two-columns {
-  column-count: 2;
-  column-gap: 10px;
-
+  break-inside: avoid-column;
 }
