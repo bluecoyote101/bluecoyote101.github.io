@@ -91,3 +91,9 @@ nav {
 
   break-inside: avoid-column;
 }
+
+.my-image {
+  border: 6px double rgb(255, 255, 255);
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
