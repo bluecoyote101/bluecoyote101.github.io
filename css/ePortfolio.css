@@ -51,18 +51,24 @@ nav {
 
 .Heading2 {
   font-family: cursive;
-  font-size: 30px;
+  font-size: 50px;
   -webkit-text-stroke: 0.2px rgb(59, 190, 255);
   -webkit-text-fill-color:rgb(0, 0, 0);
 }
 
 .Heading3 {
   font-size: 20px;
+  font-family: Ink Free;
+  -webkit-text-stroke: 0.1px rgba(100, 242, 255, 0.9);
+  -webkit-text-fill-color: rgb(0, 44, 64);
 }
 
 .Heading3_centered {
   font-size: 20px;
   text-align: center;
+  font-family: cursive;
+  -webkit-text-stroke: 0.1px navy;
+  -webkit-text-fill-color: rgb(0, 44, 64);
 }
 
 .textbox {
@@ -78,21 +84,37 @@ nav {
 .column-container {
   column-count: 3;
   column-gap: 20px;
+  margin: 13px;
+
 }
 
-.column {
+.column1 {
   font-family: cursive;
   background-color: rgb(251, 255, 183, 0.9);
   border-style: double;
   padding: 13px; /* add some padding to the container */
   border-radius: 10px;
   text-align: center;
-
   break-inside: avoid-column;
+  margin-bottom: 13px;
 }
 
+.column2 {
+  text-align: center;
+  font-size: 30px;
+}
 .my-image {
+  display: block; 
+  margin: 0 auto; 
+  width: 20%;
   border: 6px double rgb(255, 255, 255);
   border-top-right-radius: 40%;
   border-bottom-left-radius: 40%;
+}
+
+.icon {
+  display: block; 
+  margin: 0 auto; 
+  width: 40%;
+  margin-bottom: 20px;
 }
