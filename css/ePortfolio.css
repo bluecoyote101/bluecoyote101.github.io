@@ -45,6 +45,7 @@ nav {
   font-size: 50px;
   -webkit-text-stroke: 0.001px rgba(100, 242, 255, 0.9);
   -webkit-text-fill-color: rgb(0, 44, 64);
+  padding-top: 175px;
 }
 
 .Heading2 {
@@ -100,12 +101,20 @@ nav {
 .column2 {
   text-align: center;
   font-size: 30px;
+  padding: 13px; /* add some padding to the container */
+}
+
+.column3{
+  text-align: center;
+  font-size: 50px;
+  padding: 13px; /* add some padding to the container */
+  color:rgb(255, 248, 143)
 }
 .my-image {
   display: block; 
   margin: 0 auto; 
   width: 20%;
-  border: 6px double rgb(255, 255, 255);
+  border: 6px double rgb(251, 255, 183, 0.9);
   border-top-right-radius: 40%;
   border-bottom-left-radius: 40%;
 }
@@ -115,4 +124,74 @@ nav {
   margin: 0 auto; 
   width: 40%;
   margin-bottom: 20px;
+}
+
+.header2 {
+  font-family:Verdana;
+  position: fixed;
+  top: 13px;
+  left: 0;
+  right: 0;
+  width: 75%;
+  height: 50px;
+  left: calc(50% - 38%); /* Adjust the left position to horizontally center the header */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #030316; /* Set your desired background color here */
+  padding: 10px;
+  border-style: groove;
+  border-radius: 55px;
+}
+.nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  scroll-behavior: smooth;
+
+}
+
+.nav-links{
+  padding: 0 0;
+}
+
+.nav-links li{
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-links li a{
+  text-decoration:dashed;
+  color:rgb(255, 255, 255);
+  padding: 5px ;
+  position: relative;
+}
+
+.nav-links li a::after{
+  content:'';
+  background:rgb(255, 248, 143);
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.nav-links li a:hover::after{
+  width:100%
+}
+
+.btn{
+  background-color: #ff3d00;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn:hover {
+  transform: scale(1.2); /* Adjust the scale value as needed */
 }
