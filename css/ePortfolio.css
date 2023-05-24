@@ -106,9 +106,11 @@ nav {
 
 .column3{
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   padding: 13px; /* add some padding to the container */
-  color:rgb(255, 248, 143)
+  color: black;
+  background-color: rgb(255, 248, 143);
+
 }
 .my-image {
   display: block; 
