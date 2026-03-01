@@ -1,1 +1,1 @@
-Note to self: this ismy main repo
+Note to self: this is my main repo
