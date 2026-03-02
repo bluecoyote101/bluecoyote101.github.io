@@ -115,6 +115,7 @@ nav {
 .my-image {
   display: block; 
   margin: 0 auto; 
+  height: 600px;
   width: 20%;
   border: 6px double rgb(251, 255, 183, 0.9);
   border-top-right-radius: 40%;
