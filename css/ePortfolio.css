@@ -116,6 +116,7 @@ nav {
   display: block; 
   margin: 0 auto; 
   width: 20%;
+  height: auto;
   border: 4px double rgb(251, 255, 183, 0.9);
   border-top-right-radius: 40%;
   border-bottom-left-radius: 40%;
